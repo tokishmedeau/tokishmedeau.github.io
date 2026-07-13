@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Tokish J. Médeau</title>
 
 <style>
+
 body{
     margin:0;
     background:#f8f7f4;
@@ -15,10 +17,21 @@ body{
 }
 
 main{
-    max-width:800px;
-    margin:100px auto;
-    padding:20px;
+    max-width:900px;
+    margin:0 auto;
+    padding:40px 25px 80px;
 }
+
+/* TOP IMAGE */
+
+.hero{
+    width:100%;
+    display:block;
+    margin:0 auto 60px;
+    border-radius:4px;
+}
+
+/* TEXT */
 
 h1{
     font-size:52px;
@@ -28,6 +41,7 @@ h1{
 h2{
     font-weight:normal;
     color:#666;
+    margin-bottom:40px;
 }
 
 p{
@@ -35,30 +49,61 @@ p{
     font-size:20px;
 }
 
+/* BUTTONS */
+
 .buttons{
-    margin-top:50px;
+    margin:50px 0 80px;
 }
 
 a.button{
+
     display:inline-block;
+
     margin:10px;
-    padding:14px 28px;
+    padding:15px 30px;
+
+    background:#222;
+    color:#f8f7f4;
+
     border:1px solid #222;
-    text-decoration:none;
-    color:#222;
     border-radius:6px;
+
+    text-decoration:none;
+
+    transition:.2s;
+
 }
 
 a.button:hover{
-    background:#222;
-    color:white;
+
+    background:#444;
+    border-color:#444;
+
 }
+
+/* BOTTOM IMAGE */
+
+.footer-image{
+
+    width:100%;
+    display:block;
+
+    margin-top:70px;
+
+    border-radius:4px;
+
+}
+
 </style>
 </head>
 
 <body>
 
 <main>
+
+<!-- Верхняя иллюстрация -->
+
+<img class="hero" src="Header.jpg" alt="Tokish J. Médeau">
 
 <h1>Tokish J. Médeau</h1>
 
@@ -83,6 +128,10 @@ Currently writing <strong>CHIVEY</strong>.
 <a class="button" href="#">About</a>
 
 </div>
+
+<!-- Нижняя иллюстрация -->
+
+<img class="footer-image" src="Footer.jpg" alt="Artwork">
 
 </main>
 
