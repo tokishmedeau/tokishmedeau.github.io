@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CHIVEY | Chapter I | Tokish J. Médeau</title>
+
+<meta name="description" content="Read Chapter I of CHIVEY, a Southern Gothic novel by Tokish J. Médeau.">
+
+<meta name="author" content="Tokish J. Médeau">
+
+<style>
+
+body{
+    margin:0;
+    background:#faf9f7;
+    color:#222;
+    font-family:Georgia,serif;
+    line-height:1.8;
+}
+
+main{
+    max-width:900px;
+    margin:auto;
+    padding:60px 25px 100px;
+}
+
+h1{
+    text-align:center;
+    font-size:54px;
+    margin-bottom:8px;
+}
+
+.chapter-title{
+
+    text-align:center;
+    font-size:30px;
+    letter-spacing:2px;
+    color:#555;
+
+    margin-bottom:12px;
+
+}
+    
+.subtitle{
+    text-align:center;
+    color:#666;
+    font-size:22px;
+    margin-bottom:40px;
+}
+
+.banner{
+    width:100%;
+    display:block;
+    margin:0 auto 70px;
+}
+
+.epigraph{
+    max-width:600px;
+    margin:0 auto 70px;
+    text-align:center;
+    font-style:italic;
+    color:#444;
+}
+
+.epigraph-author{
+    margin-top:20px;
+    text-align:right;
+    font-style:normal;
+}
+
+p{
+    font-size:22px;
+    margin-bottom:1.35em;
+}
+
+.back{
+    display:inline-block;
+    margin-bottom:40px;
+    text-decoration:none;
+    color:#444;
+}
+
+.back:hover{
+    text-decoration:underline;
+}
+
+.next{
+
+    margin-top:120px;
+    margin-bottom:100px;
+    padding-top:40px;
+
+    border-top:1px solid #ddd;
+
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+.chapter-nav{
+
+    display:inline-block;
+
+    color:#444;
+    text-decoration:none;
+
+    font-size:20px;
+
+}
+
+
+.chapter-nav:hover{
+
+    color:#000;
+    text-decoration:underline;
+
+}
+
+footer{
+
+    margin-top:140px;
+    padding-top:40px;
+
+    border-top:1px solid #ddd;
+
+    text-align:center;
+    color:#777;
+
+}
+    
+</style>
+</head>
+
+<body>
+
+<main>
+
+<a class="back" href="read.html">← CHIVEY Chapters</a>
+
+<h1>CHIVEY</h1>
+
+<div class="chapter-title">
+Chapter II
+</div>
+    
+<div class="subtitle">
+Tokish J. Médeau
+</div>
+
+<img class="banner" src="Chapter_II.jpg" alt="Chapter I illustration">
