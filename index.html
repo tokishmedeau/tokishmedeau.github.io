@@ -19,8 +19,7 @@ body{
     margin:0;
     background:#f8f7f4;
     color:#222;
-
-    font-family:'EB Garamond',serif;
+    font-family:'EB Garamond', serif;
     text-align:center;
 
 }
@@ -29,7 +28,7 @@ main{
 
     max-width:900px;
     margin:auto;
-    padding:40px 25px 90px;
+    padding:55px 25px 90px;
 
 }
 
@@ -38,10 +37,9 @@ main{
 .hero{
 
     width:100%;
+    height:auto;
     display:block;
-
     margin:0 auto 60px;
-
     border-radius:4px;
 
 }
@@ -49,16 +47,12 @@ main{
 /* ---------- TEXT ---------- */
 
 h1{
+
     font-family:'Cinzel', serif;
-    
-    font-size:64px;
-    
+    font-size:clamp(42px,8vw,74px);
     font-weight:600;
-    
     letter-spacing:1.2px;
-    
     margin:18px 0 10px;
-    
     color:#222;
 
 }
@@ -66,11 +60,8 @@ h1{
 h2{
 
     margin:18px 0 24px;
-
     font-size:30px;
-
     font-weight:400;
-
     color:#555;
 
 }
@@ -78,11 +69,8 @@ h2{
 .tagline{
 
     margin-bottom:60px;
-
     font-size:27px;
-
     color:#555;
-
     letter-spacing:.5px;
 
 }
@@ -98,28 +86,21 @@ h2{
 .button{
 
     display:inline-block;
-
     width:135px;
-
     margin:6px;
-
     padding:10px 0;
 
     font-size:18px;
-
-    letter-spacing:0.3px;
+    letter-spacing:.3px;
 
     text-align:center;
-
-    color:#222;
-
     text-decoration:none;
 
-    border:1px solid #444;
-
-    border-radius:2px;
-
+    color:#222;
     background:#faf9f7;
+
+    border:1px solid #444;
+    border-radius:2px;
 
     transition:.2s;
 
@@ -137,12 +118,71 @@ h2{
 .footer-image{
 
     width:100%;
-
+    height:auto;
     display:block;
-
     margin-top:100px;
-
     border-radius:4px;
+
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width:700px){
+
+    main{
+
+        padding:28px 18px 70px;
+
+    }
+
+    .hero{
+
+        margin-bottom:42px;
+
+    }
+
+    h1{
+
+        font-size:clamp(40px,9vw,62px);
+        letter-spacing:.6px;
+
+    }
+
+    h2{
+
+        font-size:24px;
+        margin:14px 0 16px;
+
+    }
+
+    .tagline{
+
+        font-size:22px;
+        margin-bottom:40px;
+
+    }
+
+    .buttons{
+
+        margin:30px 0 70px;
+
+    }
+
+    .button{
+
+        width:120px;
+        padding:9px 0;
+        margin:5px;
+
+        font-size:17px;
+
+    }
+
+    .footer-image{
+
+        margin-top:70px;
+
+    }
 
 }
 
