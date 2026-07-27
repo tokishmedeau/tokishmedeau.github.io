@@ -6,10 +6,70 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Tokish J. Médeau</title>
+<title>Tokish J. Médeau | Author & Illustrator</title>
+
+<meta name="description" content="Official website of Tokish J. Médeau, author and illustrator writing Southern Gothic and magical realism. Read CHIVEY, browse illustrations and articles.">
+
+<!-- Open Graph -->
+
+<meta property="og:title" content="Tokish J. Médeau | Author & Illustrator">
+<meta property="og:description" content="Official website of Tokish J. Médeau. Southern Gothic • Magical Realism.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tokishmedeau.com/">
+<meta property="og:image" content="https://tokishmedeau.com/Header.jpg">
+
+<!-- Schema.org -->
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+
+    {
+      "@type":"Person",
+      "@id":"https://tokishmedeau.com/#author",
+      "name":"Tokish J. Médeau",
+      "url":"https://tokishmedeau.com/",
+      "jobTitle":"Author & Illustrator",
+      "description":"Author and illustrator writing Southern Gothic and magical realism.",
+      "knowsAbout":[
+        "Southern Gothic",
+        "Magical Realism",
+        "Illustration"
+      ]
+    },
+
+    {
+      "@type":"Book",
+      "@id":"https://tokishmedeau.com/#book",
+      "name":"CHIVEY",
+      "url":"https://tokishmedeau.com/read.html",
+      "author":{
+        "@id":"https://tokishmedeau.com/#author"
+      },
+      "genre":[
+        "Southern Gothic",
+        "Magical Realism"
+      ],
+      "inLanguage":"en"
+    },
+
+    {
+      "@type":"WebSite",
+      "@id":"https://tokishmedeau.com/#website",
+      "url":"https://tokishmedeau.com/",
+      "name":"Tokish J. Médeau",
+      "publisher":{
+        "@id":"https://tokishmedeau.com/#author"
+      }
+    }
+
+  ]
+}
+</script>
 
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
-    
+
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
 
 <style>
@@ -113,6 +173,23 @@ h2{
 
 }
 
+/* Primary button */
+
+.button-primary{
+
+    background:#7b2c32;
+    color:#faf9f7;
+    border-color:#7b2c32;
+
+}
+
+.button-primary:hover{
+
+    background:#5f2025;
+    border-color:#5f2025;
+
+}
+
 /* ---------- FOOTER IMAGE ---------- */
 
 .footer-image{
@@ -206,7 +283,7 @@ Southern Gothic • Magical Realism
 
 <div class="buttons">
 
-<a class="button" href="read.html">Read CHIVEY</a>
+<a class="button button-primary" href="read.html">Read CHIVEY</a>
 
 <a class="button" href="#">Articles</a>
 
