@@ -3,31 +3,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://tokishmedeau.com/</loc>
+  <loc>https://tokishmedeau.com/</loc>
+  <lastmod>2026-07-28</lastmod>
 </url>
 
 <url>
-<loc>https://tokishmedeau.com/read.html</loc>
+  <loc>https://tokishmedeau.com/about.html</loc>
+  <lastmod>2026-07-28</lastmod>
 </url>
 
 <url>
-<loc>https://tokishmedeau.com/chapter1.html</loc>
+  <loc>https://tokishmedeau.com/read.html</loc>
+  <lastmod>2026-07-28</lastmod>
 </url>
 
 <url>
-<loc>https://tokishmedeau.com/chapter2.html</loc>
+  <loc>https://tokishmedeau.com/chapter1.html</loc>
+  <lastmod>2026-07-28</lastmod>
 </url>
 
 <url>
-<loc>https://tokishmedeau.com/chapter3.html</loc>
+  <loc>https://tokishmedeau.com/chapter2.html</loc>
+  <lastmod>2026-07-28</lastmod>
 </url>
 
 <url>
-<loc>https://tokishmedeau.com/chapter4.html</loc>
+  <loc>https://tokishmedeau.com/chapter3.html</loc>
+  <lastmod>2026-07-28</lastmod>
 </url>
 
 <url>
-<loc>https://tokishmedeau.com/chapter5.html</loc>
+  <loc>https://tokishmedeau.com/chapter4.html</loc>
+  <lastmod>2026-07-28</lastmod>
+</url>
+
+<url>
+  <loc>https://tokishmedeau.com/chapter5.html</loc>
+  <lastmod>2026-07-28</lastmod>
 </url>
 
 </urlset>
