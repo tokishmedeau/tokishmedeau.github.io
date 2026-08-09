@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tokishmedeau.github.io/sitemap.xml
+Sitemap: https://tokishmedeau.com/sitemap.xml
