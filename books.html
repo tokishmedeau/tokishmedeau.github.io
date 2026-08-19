@@ -74,27 +74,36 @@ main{
     display:block;
     transition:opacity .25s ease;
 }
-
+    
 .description{
     position:absolute;
     inset:0;
 
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
 
-    padding:35px;
+    padding:30px;
     box-sizing:border-box;
 
     background:rgba(250,249,247,.94);
     color:#222;
 
-    font-size:21px;
-    line-height:1.6;
-    text-align:center;
+    font-size:16px;
+    line-height:1.45;
+    text-align:left;
 
     opacity:0;
     transition:opacity .25s ease;
+}
+
+.description p{
+    margin:0 0 12px;
+}
+
+.description p:last-child{
+    margin-bottom:0;
 }
 
 .book:hover .description{
@@ -142,7 +151,9 @@ footer{
     }
 
     .description{
-        font-size:20px;
+        font-size:16px;
+        line-height:1.45;
+        padding:25px;
     }
 
 }
