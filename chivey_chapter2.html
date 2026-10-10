@@ -107,23 +107,50 @@ h1{
     margin:0 auto 70px;
 }
 
-.epigraph{
-    max-width:600px;
-    margin:0 auto 70px;
-    text-align:center;
-    font-style:italic;
-    color:#444;
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    hyphens: auto;
+    margin-top: 0;
+    margin-bottom: 1.1em;
+    text-indent: 0;
+    text-wrap: pretty;
 }
 
-.epigraph-author{
-    margin-top:20px;
-    text-align:right;
-    font-style:normal;
+.song-line {
+  text-indent: 0 !important;
+  padding-left: 2em;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-style: italic;
 }
 
-p{
-    font-size:20px;
-    margin-bottom:1.35em;
+.scene-break {
+    text-indent: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-style: italic;
+}
+
+.scene-break + p {
+    text-indent: 0;
+}
+
+.embedded-story {
+  padding-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.embedded-story p {
+  text-indent: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+.embedded-story p:last-child {
+  margin-bottom: 0;
 }
 
 .back{
