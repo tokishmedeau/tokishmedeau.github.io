@@ -102,8 +102,8 @@ h1{
 }
 
 .epigraph {
-    width: fit-content;
-    max-width: 80%;
+    width: 340px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: 0;
     margin-bottom: 70px;
@@ -122,14 +122,14 @@ h1{
     text-align: right;
     font-style: italic;
 }
-
+ 
 p {
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
     hyphens: auto;
     margin-top: 0;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.5em;
     text-indent: 0;
     text-wrap: pretty;
 }
@@ -143,8 +143,12 @@ p {
 }
 
 .scene-block {
-    margin-top: 2em;
+    margin-top: 2.2em;
 }
+
+.scene-block > p:first-child {
+    text-indent: 1.8em;
+}  
 
 .embedded-story {
   padding-left: 2em;
